@@ -11,7 +11,7 @@ We need a managed traffic light for our polygon in smart city lab.
 ### Objectives
 - The system has to be stable.
 - The traffic light configuration must be changable with minimal human intervention.
-
+- The system must be scalable.
 
 ### Features
 - Modular structure (interchangable 5,4 and 3 segmented traffic light heads)
