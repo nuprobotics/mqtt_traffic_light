@@ -21,6 +21,7 @@ We need a managed traffic light for our polygon in smart city lab.
 ### Hardware
 ESP32C3
 WS2812B 60LED/M  
+PETG plastic
 
 ### Timeline
 - Phase 1 (8.11 - 22.11): MQTT brocker running on a server in the lab, esp32 flashes an LED when triggered through MQTT
