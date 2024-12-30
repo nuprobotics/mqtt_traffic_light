@@ -1,5 +1,5 @@
 .pio/build/seeed_xiao_esp32c3/src/TrafficLight.cpp.o: \
- src/TrafficLight.cpp src/TrafficLight.h \
+ src/TrafficLight.cpp src/TrafficLight.h src/Config.h \
  .pio/libdeps/seeed_xiao_esp32c3/Adafruit\ NeoPixel/Adafruit_NeoPixel.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
@@ -162,5 +162,4 @@
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/spi_flash/include/esp_spi_flash_counters.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_hw_support/include/soc/esp32/spiram.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
- src/Config.h
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h

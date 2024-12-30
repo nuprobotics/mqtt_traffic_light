@@ -1,8 +1,9 @@
 #ifndef TRAFFIC_LIGHT_H
 #define TRAFFIC_LIGHT_H
 
-#include <string>
+#include "Config.h"
 #include <Adafruit_NeoPixel.h>
+#include <Arduino.h>
 
 enum class MainLightState {
     RED,
@@ -28,7 +29,7 @@ public:
     explicit TrafficLight(TrafficLightConfiguration configuration = TrafficLightConfiguration::MAIN_3_STATE);
     void changeConfig(TrafficLightConfiguration configuration);
     void setState(MainLightState newMainState = MainLightState::RED, ArrowLightState newRightArrowState = ArrowLightState::OFF, ArrowLightState newLeftArrowState = ArrowLightState::OFF);
-    void printState();
+    void printState() const;
 
 private:
     MainLightState mainState;
@@ -37,9 +38,9 @@ private:
     TrafficLightConfiguration config;
     Adafruit_NeoPixel pixels;
 
-    std::string mainStateToString(MainLightState st);
-    std::string arrowStateToString(ArrowLightState st);
-    std::string configToString(TrafficLightConfiguration c);
+    static String mainStateToString(MainLightState st);
+    static String arrowStateToString(ArrowLightState st);
+    static String configToString(TrafficLightConfiguration c);
 
     void applyStateMain();
     void applyStateRight();

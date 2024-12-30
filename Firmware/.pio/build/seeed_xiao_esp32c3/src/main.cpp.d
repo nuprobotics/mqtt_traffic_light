@@ -1,4 +1,6 @@
 .pio/build/seeed_xiao_esp32c3/src/main.cpp.o: src/main.cpp \
+ src/TrafficLight.h src/Config.h \
+ .pio/libdeps/seeed_xiao_esp32c3/Adafruit\ NeoPixel/Adafruit_NeoPixel.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/FreeRTOS.h \
@@ -161,6 +163,25 @@
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_hw_support/include/soc/esp32/spiram.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
- src/TrafficLight.h \
- .pio/libdeps/seeed_xiao_esp32c3/Adafruit\ NeoPixel/Adafruit_NeoPixel.h \
- src/Config.h
+ src/MqttController.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFi.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPv6Address.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiType.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiSTA.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiGeneric.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_smartconfig.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/wifi_provisioning/include/wifi_provisioning/manager.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/protocomm/include/common/protocomm.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/protocomm/include/security/protocomm_security.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/wifi_provisioning/include/wifi_provisioning/wifi_config.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiAP.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiScan.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiServer.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiUdp.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h \
+ .pio/libdeps/seeed_xiao_esp32c3/PubSubClient/src/PubSubClient.h

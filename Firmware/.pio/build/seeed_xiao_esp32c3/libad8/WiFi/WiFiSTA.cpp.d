@@ -1,8 +1,24 @@
-.pio/build/seeed_xiao_esp32c3/liba7e/Adafruit\ NeoPixel/Adafruit_NeoPixel.cpp.o: \
- .pio/libdeps/seeed_xiao_esp32c3/Adafruit\ NeoPixel/Adafruit_NeoPixel.cpp \
- .pio/libdeps/seeed_xiao_esp32c3/Adafruit\ NeoPixel/Adafruit_NeoPixel.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
+.pio/build/seeed_xiao_esp32c3/libad8/WiFi/WiFiSTA.cpp.o: \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiSTA.cpp \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFi.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/pgmspace.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPv6Address.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiType.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_wifi_types.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_private/esp_wifi_types_private.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_common/include/esp_err.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_common/include/esp_compiler.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_hw_support/include/esp_interface.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_event/include/esp_event_base.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiSTA.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiGeneric.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_event/include/esp_event.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/FreeRTOS.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_common/include/esp_compiler.h \
@@ -16,8 +32,6 @@
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_hw_support/include/soc/cpu.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_hw_support/include/esp_cpu.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/hal/include/hal/cpu_hal.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_common/include/esp_err.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_common/include/esp_compiler.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/soc/esp32c3/include/soc/soc_caps.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/hal/include/hal/cpu_types.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/hal/esp32c3/include/hal/cpu_ll.h \
@@ -53,9 +67,56 @@
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/task.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/list.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/esp_additions/freertos/task_snapshot.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/semphr.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/queue.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/task.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/semphr.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/queue.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_event/include/esp_event_base.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_event/include/esp_event_legacy.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif_ip_addr.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif_types.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif_defaults.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth_netif_glue.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth_com.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/hal/include/hal/eth_types.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth_mac.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth_phy.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/tcpip_adapter/include/tcpip_adapter.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/tcpip_adapter/include/tcpip_adapter_types.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/ip_addr.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/opt.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/lwipopts.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/newlib/platform_include/sys/ioctl.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_system/include/esp_task.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/netif/dhcp_state.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/sntp/sntp_get_set_time.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/debug.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/arch.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/arch/cc.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/newlib/platform_include/errno.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/arch/sys_arch.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/arch/vfs_lwip.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/def.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/ip4_addr.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/ip6_addr.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/def.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/ip6_zone.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/err.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif_sta_list.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_smartconfig.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/wifi_provisioning/include/wifi_provisioning/manager.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/protocomm/include/common/protocomm.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/protocomm/include/security/protocomm_security.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/wifi_provisioning/include/wifi_provisioning/wifi_config.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiAP.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiScan.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_hw_support/include/esp_sleep.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/hal/include/hal/touch_sensor_types.h \
@@ -65,7 +126,6 @@
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/soc/esp32c3/include/soc/gpio_struct.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/soc/esp32c3/include/soc/gpio_reg.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/soc/esp32c3/include/soc/gpio_sig_map.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/queue.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/event_groups.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/freertos/timers.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
@@ -97,61 +157,15 @@
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/stdlib_noniso.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/binary.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/WCharacter.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/pgmspace.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareSerial.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/HWCDC.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_event/include/esp_event.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_event/include/esp_event_base.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_event/include/esp_event_legacy.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_wifi_types.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_private/esp_wifi_types_private.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_hw_support/include/esp_interface.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_event/include/esp_event_base.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif_ip_addr.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif_types.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif_defaults.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth_netif_glue.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth_com.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/hal/include/hal/eth_types.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth_mac.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_eth/include/esp_eth_phy.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/tcpip_adapter/include/tcpip_adapter.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/tcpip_adapter/include/tcpip_adapter_types.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/ip_addr.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/opt.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/lwipopts.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/newlib/platform_include/sys/ioctl.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_system/include/esp_task.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/netif/dhcp_state.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/sntp/sntp_get_set_time.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/debug.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/arch.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/arch/cc.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/arch/sys_arch.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/port/esp32/include/arch/vfs_lwip.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/def.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/ip4_addr.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/ip6_addr.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/def.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/ip6_zone.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/include/apps/dhcpserver/dhcpserver.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/err.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_netif/include/esp_netif_sta_list.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/USBCDC.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Esp.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/spi_flash/include/esp_partition.h \
@@ -162,4 +176,19 @@
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/spi_flash/include/esp_spi_flash_counters.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_hw_support/include/soc/esp32/spiram.h \
  /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
- /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiServer.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiUdp.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_wifi.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_wifi_types.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_private/esp_wifi_private.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_wifi_crypto_types.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_private/wifi_os_adapter.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/esp_wifi/include/esp_wifi_default.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/lwip/lwip/src/include/lwip/dns.h \
+ /home/vlad/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/wpa_supplicant/esp_supplicant/include/esp_wpa2.h
