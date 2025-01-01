@@ -87,7 +87,9 @@ void MqttController::connectMQTT() {
         Serial.print("ClientID: ");
         Serial.println(clientId);
 
-        // Connect without auth, or add username/password if needed
+
+        #ifndef MQTT_LOGIN
+        // Connect without auth
         if (m_mqttClient.connect(clientId.c_str())) {
             Serial.println("connected!");
             // Subscribe to the init topic unconditionally (we need to respond to new lights)
@@ -98,6 +100,19 @@ void MqttController::connectMQTT() {
             Serial.println("; trying again in 2 seconds");
             delay(2000);
         }
+        #else
+        // Connect with auth from Config.h
+        if (m_mqttClient.connect(clientId.c_str(), MQTT_LOGIN, MQTT_PASSWORD)) {
+            Serial.println("connected!");
+            // Subscribe to the init topic unconditionally (we need to respond to new lights)
+            m_mqttClient.subscribe(MQTT_INIT_TOPIC);
+        } else {
+            Serial.print("failed, rc=");
+            Serial.print(m_mqttClient.state());
+            Serial.println("; trying again in 2 seconds");
+            delay(2000);
+        }
+        #endif
     }
 }
 
