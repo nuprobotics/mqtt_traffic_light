@@ -15,6 +15,7 @@ Traffic light has four possible configurations: MAIN_3_STATE, MAIN_PLUS_RIGHT, M
 ## MQTT logic 
 When traffic light is booted, it connects to the Wifi then connects to MQTT broker. As soon as it is connected to the broker it publishes a message to the init topic and collects responses with IDs of active traffic lights during specified timeframe. After that it picks an ID=n+1, where n is the greatest id it collected, that is later published to the same topic. After the traffic light selected it's ID, it subscribes to it's control topic and starts usual operation loop (monitors init topic and announces it's id on request, monitors control topic and responds to requests of changing the configuration or the state.) 
 The wifi SSID, password, mqtt address and port, mqtt init topic and mqtt control topic base, as well as the timeframe of recieving id announce responds is specified in the `mqtt_traffic_light/Firmware/src/Config.h` file. 
+If you want to use mqtt credentials for connection, simply uncomment corresponding lines in the Config.h file and put your credentials in there, TLS certificate auth is not yet supported.
 
 ## Controlling individual traffic lights
 To change the config of a specific traffic light, you have to publish a message to the corresponding mqtt control topic:
