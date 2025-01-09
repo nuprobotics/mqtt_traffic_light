@@ -38,7 +38,7 @@ If the state does not match the config, parts not present in the config (e.g. on
 5. 4 M3x10 screws
 6. 4 M3 nuts
 7. ESP32C3 supermini 
-8. 3d-printed parts from mqtt_traffic_light/Mesh_models (i used PETG with 0.6mm nozzle, all parts are printe without supports). Make sure to set a pause, when printing base.stl, to put the screws inside before the gaps are covered. 
+8. 3d-printed parts from mqtt_traffic_light/Mesh_models (i used PETG with 0.6mm nozzle, all parts, except for trafficlight_head_case_p1 are printed without supports). Make sure to set a pause, when printing base.stl, to put the screws inside before the gaps are covered. 
 9. Hot glue 
 10.  Soldering tools
 11. Super glue 
