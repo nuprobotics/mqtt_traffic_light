@@ -25,7 +25,7 @@ PETG plastic
 
 ### Timeline
 - Phase 1 (8.11 - 22.11): MQTT brocker running on a server in the lab, esp32 flashes an LED when triggered through MQTT
-- Phase 2 (22.11 - 6.12): The phisical traffic light is designed andassembled
+- Phase 2 (22.11 - 6.12): The phisical traffic light is designed and assembled
 - Phase 3 (6.12 - 20.12): The traffic light is stably running, managed through an MQTT broker
 
 ### Team
